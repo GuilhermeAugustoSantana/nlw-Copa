@@ -22,8 +22,10 @@ function createCard(data, day, games) {
 }
 
 document.querySelector('#cards').innerHTML =
-   createCard("24/11", "quinta", createGame('brazil', '16:00', 'serbia') + createGame('portugal', '18:00', 'uruguay')) +
+   createCard("20/11", "domingo", createGame("qatar", "12:00", "ecuador")) +
 
-   createCard("28/11", "segunda", createGame('brazil', '13:00', 'switzerland')) +
+   createCard("21/11", "segunda", createGame("england", "09:00", "iran") + createGame("senegal", "12:00", "netherlands") + createGame("united-states", "15:00", "wales")) +
 
-   createCard("28/11", "segunda", createGame('brazil', '13:00', 'camaroon'));
+   createCard("22/11", "terça", createGame("argentina", "06:00", "saudi-arabia") + createGame("denmark", "09:00", "tunisia") + createGame("mexico", "12:00", "poland") + createGame("france", "15:00", "australia")) +
+
+   createCard("23/11", "quarta", createGame("morocco", "06:00", "croatia") + createGame("germany", "09:00", "japan") + createGame("spain", "12:00", "costa-rica") + createGame("belgium", "15:00", "canada"));
